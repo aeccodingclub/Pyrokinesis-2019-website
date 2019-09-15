@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "mountains";
+    src: url(fonts/beyond_the_mountains.ttf);
+    src: url(fonts/beyond_the_mountains.otf);
+    font-weight: 400;
+}
+
+.body{
+	background-image: url("bg.jpg");
+	background-size: contain;
+	font-family: mountains;
+	color: #87ceeb;
+}
+
+.pad{
+	z-index:999;
+	margin: 10px 20px 10px 20px;
+}
